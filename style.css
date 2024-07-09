@@ -84,7 +84,7 @@ body{
 }
 .skills{
     padding: 40px;
-    height: 800px;
+    height: fit-content;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr ;
@@ -96,11 +96,13 @@ body{
     font-family: junge;
     color: #FAE7F3;
     font-size: 1.5rem;
+    margin-bottom: 40px;
 }
 .web{
     background-color: #232231;
     border-radius: 40px;
     padding: 15px;
+    margin-bottom: 40px;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -114,6 +116,7 @@ body{
 .gen{
     background-color: #232231;
     border-radius: 40px;
+    margin-bottom: 40px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -178,4 +181,13 @@ body{
     justify-content: center;
     align-items: flex-end;
     color: #E6B9DE;
+}
+@media (max-width:600px ) {
+    .cseimg,.web-dev{
+        clear: both;
+        height: 70px;
+    }
+    img{
+        height: 100px;
+    }
 }
