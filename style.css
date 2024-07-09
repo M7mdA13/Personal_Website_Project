@@ -1,0 +1,181 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.header{
+    width: 100%;
+    background-color: #232231;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.5fr 0.75fr 0.25fr 1fr ;
+   
+}
+.empty{
+    display: flex;
+    justify-content:space-between;
+    height: 0px;
+}
+.heading{
+    display: flex;
+    
+    justify-content: center;
+    font-family: kanit;
+}
+.name{
+    font-family: junge;
+    color:#FFE3D8;
+    font-size: 5rem;
+
+}
+.desc{
+    font-family: kanit;
+    color: #FFE3D8;
+    font-size: 2rem;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#code{
+    height: 300px;
+}
+.hr{
+    background-color: #03506F;
+    clear: both;
+    height: 100px;
+}
+.about{
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 140px 350px 210px;
+    background-color: cadetblue;
+}
+.about-me{
+    font-family: junge;
+    color: #FAE7F3;
+    font-size: 1.5rem;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    height: 300px;
+    width: fit-content;
+    border:5px solid #03506F;
+    border-radius: 50%; 
+}
+.description{
+    color: #FAE7F3;
+    font-size: 1.5rem;
+    font-family: kanit;
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+.skills{
+    padding: 40px;
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-row: 1fr 4fr 4fr;
+    background-color: cadetblue;
+}
+
+.skill-heading{
+    font-family: junge;
+    color: #FAE7F3;
+    font-size: 1.5rem;
+}
+.web{
+    background-color: #232231;
+    border-radius: 40px;
+    padding: 15px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.web-dev{
+    float: left;
+    border-radius: 20px;
+    border: 5px solid #03506F;
+    margin-right: 25px;
+}
+.gen{
+    background-color: #232231;
+    border-radius: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.cseimg{
+    float: left;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid #03506F;
+    margin-right: 25px;
+
+}
+.description1,.description2{
+    color: #FAE7F3;
+    font-size: 1.2rem;
+    font-family: kanit;
+    display: flex;
+    justify-content: center ;
+}
+.heading1,.heading2{
+    font-family: junge;
+    color: #E6B9DE;
+    font-size: 1.5rem;
+}
+.contact{
+    height: 300px;
+    background-color:cadetblue;
+    padding: 40px;
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 1fr 1fr;
+}
+.contact-me{
+    font-size: 3rem;
+    color: #232231;
+}
+.button{
+   padding: 30px; 
+    display: flex;
+    justify-content: center;
+    border: none;
+} 
+.btn{
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+.hr2{
+    background-color: #03506F;
+    clear: both;
+    height: 200px;
+}
+.hypers{
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #E6B9DE;
+}
